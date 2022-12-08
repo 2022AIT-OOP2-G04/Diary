@@ -1,8 +1,10 @@
 from diaries.DiarySample import DiarySample
+from diaries.HidetoDiary import HidetoDiary
 
 #
 diaries = [
     DiarySample(), 
+    HidetoDiary(),
     ]
 
 for d in diaries:
