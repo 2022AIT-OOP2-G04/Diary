@@ -1,10 +1,10 @@
 from diaries.DiarySample import DiarySample
-from diaries.ShiraiDiary import K21067Diary
+from diaries.ShiraiDiary import ShiraiDiary
 
 #
 diaries = [
     DiarySample(), 
-    K21067Diary(),
+    ShiraiDiary(),
     ]
 
 for d in diaries:
