@@ -1,8 +1,10 @@
 from diaries.DiarySample import DiarySample
+from diaries.AgataDiary import AgataDiary
 
 #
 diaries = [
-    DiarySample(), 
+    DiarySample(),
+    AgataDiary(), 
     ]
 
 for d in diaries:
