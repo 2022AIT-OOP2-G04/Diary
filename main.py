@@ -1,8 +1,10 @@
 from diaries.DiarySample import DiarySample
+from diaries.FujiiDiary import FujiiDiary
 
 #
 diaries = [
-    DiarySample(), 
+    DiarySample(),
+    FujiiDiary(), 
     ]
 
 for d in diaries:
