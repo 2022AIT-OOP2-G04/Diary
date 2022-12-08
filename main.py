@@ -1,5 +1,5 @@
 from diaries.DiarySample import DiarySample
-from diaries.K21067Diary import K21067Diary
+from diaries.ShiraiDiary import K21067Diary
 
 #
 diaries = [
