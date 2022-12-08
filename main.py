@@ -1,8 +1,10 @@
 from diaries.DiarySample import DiarySample
+from diaries.MasudaDiary import MasudaDiary
 
 #
 diaries = [
     DiarySample(), 
+    MasudaDiary(),
     ]
 
 for d in diaries:
@@ -11,3 +13,4 @@ for d in diaries:
     print(d.get_summary())
     print(d.get_author())
     print()
+    
