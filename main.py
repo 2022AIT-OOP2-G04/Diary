@@ -1,8 +1,10 @@
 from diaries.DiarySample import DiarySample
+from diaries.K21036Diary import K21036Diary
 
 #
 diaries = [
     DiarySample(), 
+    K21036Diary(), 
     ]
 
 for d in diaries:
